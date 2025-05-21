@@ -1,62 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Webpage Design</title>
-    <link rel="stylesheet" href="design.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motorbike Sales Website</title>
+  <link rel="stylesheet" type="text/css" href="design.css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="main">
-        <div class="navbar">
-            <div class="icon">
-                <h2 class="logo">sea bed</h2>
-            </div>
+<header>
+  <a href="#" class="logo">MotoSales</a>
+  <div class="bx bx-menu" id="menu-icon"></div>
+  <ul class="navbar">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#models">Models</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</header>
 
-            <div class="menu">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SERVICE</a></li>
-                    <li><a href="#">DESIGN</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div>
+<!-- Home Section -->
+<section class="home" id="home">
+  <div class="home-text">
+    <h1>MotoSales</h1>
+    <h2>Ride Into Freedom<br>With Powerful Machines</h2>
+    <a href="#" class="btn">Explore Bikes</a>
+  </div>
+  <div class="Food-img">
+    <img src="images4.png" alt="Motorbike Banner">
+  </div>
+</section>
 
-            <div class="search">
-                <input class="srch" type="search" name="" placeholder="Type To text">
-                <a href="#"> <button class="btn">Search</button></a>
-            </div>
+<!-- About Section -->
+<section class="about" id="about">
+  <div class="About-img">
+    <img src="about-bike.png" alt="About Motorbike">
+  </div>
+  <div class="About-text">
+    <span>About Us</span>
+    <h2>Your Trusted Partner <br>In Motorcycle Excellence</h2>
+    <p>We provide premium motorcycles that blend power, performance, and precision. Whether you're a commuter or an adventurer, MotoSales has the perfect ride for you.</p>
+    <a href="#" class="btn">Learn More</a>
+  </div>
+</section>
 
-        </div> 
-        <div class="content">
-            <h1>Salt bar & <br><span>Resturant</span> <br>Resort</h1>
-            <p class="par">Sip, savor, and sun-kissed</p>
+<!-- Models Section -->
+<section class="menu" id="models">
+  <div class="heading">
+    <span>Our Bikes</span>
+    <h2>Latest Models</h2>
+  </div>
 
-                <button class="cn"><a href="#">BOOK NOW!!!</a></button>
-
-                <div class="form">
-                    <h2>Login Here</h2>
-                    <input type="email" name="email" placeholder="Enter Email Here">
-                    <input type="password" name="" placeholder="Enter Password Here">
-                    <button class="btnn"><a href="#">Login</a></button>
-
-                    <p class="link">Don't have an account<br>
-                    <a href="#">Sign up </a> here</a></p>
-                    <p class="liw">Log in with</p>
-                        
-                     <div class="icons">
-                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
-                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
-                    </div>
-
-                </div>
-                    </div>
-                </div>
-        </div>
+  <div class="box">
+    <div class="box-img">
+      <img src="images.jpg" alt="Roadster X">
     </div>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <h2>Roadster X</h2>
+    <h3>Speed & Style</h3>
+    <span>$8,500</span>
+    <i class='bx bx-cart-add'></i>
+  </div>
+  <div class="box">
+    <div class="box-img">
+      <img src="images (1).jpg" alt="Enduro Max">
+    </div>
+    <h2>Enduro Max</h2>
+    <h3>Off-Road Beast</h3>
+    <span>$10,200</span>
+    <i class='bx bx-cart-add'></i>
+  </div>
+  <div class="box">
+    <div class="box-img">
+      <img src="images (2).jpg" alt="Sport 900">
+    </div>
+    <h2>Sport 900</h2>
+    <h3>Track Machine</h3>
+    <span>$12,000</span>
+    <i class='bx bx-cart-add'></i>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="services" id="services">
+  <div class="heading">
+    <span>Our Services</span>
+    <h2>Beyond Just Selling Bikes</h2>
+  </div>
+  <div class="service-container">
+    <div class="s-box">
+      <img src="images (3).jpg" alt="Gear">
+      <h3>Riding Gear</h3>
+      <p>Get helmets, jackets, and safety gear for all riders.</p>
+    </div>
+    <div class="s-box">
+      <img src="images (4).jpg" alt="Maintenance">
+      <h3>Maintenance</h3>
+      <p>Routine servicing and diagnostics by experts.</p>
+    </div>
+    <div class="s-box">
+      <img src="service-delivery.png" alt="Delivery">
+      <h3>Home Delivery</h3>
+      <p>We deliver motorcycles right to your doorstep.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action -->
+<section class="cta">
+  <h2>Unleash the Power<br>Every Single Ride</h2>
+  <a href="#" class="btn">Find Your Ride</a>
+</section>
+
+<!-- Footer -->
+<section id="contact">
+  <div class="footer">
+    <div class="main">
+      <div class="col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Models</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Bike Sales</a></li>
+          <li><a href="#">Maintenance</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Bike Financing</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Information</h4>
+        <ul>
+          <li><a href="#">About MotoSales</a></li>
+          <li><a href="#">Shipping Info</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Contact Us</h4>
+        <div class="social">
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+          <a href="#"><i class='bx bxl-twitter'></i></a>
+          <a href="#"><i class='bx bxl-youtube'></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
